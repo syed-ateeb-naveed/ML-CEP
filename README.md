@@ -67,23 +67,13 @@ Car Price Prediction is a machine learning project aimed at estimating the price
    cd ML-CEP
    ```
 
-2. **Install Required Dependencies**:
-   Install the necessary libraries using `pip`:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Streamlit App**:
+2. **Run the Streamlit App**:
    Start the Streamlit app to launch the user interface:
    ```bash
    streamlit run app.py
    ```
+> Note: The app integrates the Linear Regressor model, which was determined to be the best-performing model for predicting car prices.
 
-4. **Access the Web App**:
-   Open your browser and go to:
-   ```
-   http://localhost:8501
-   ```
 
 ## Conclusion
 
